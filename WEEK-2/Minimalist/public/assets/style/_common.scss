@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: 'proxima_novaregular';
+  src: url(../fonts/proximanova-regular-webfont.woff2) format("woff2"), 
+  url(../fonts/proximanova-regular-webfont.woff) format("woff");
+}
+
+@mixin display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$font-style-proxima: "proxima_novaregular";
+
+
+
+
