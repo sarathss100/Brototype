@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  color: white; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem; }
+  .header h1 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6rem; }
+  .header h2 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 8rem; }
+
+.little_about_me_section_1 {
+  display: flex;
+  align-items: center;
+  padding-top: 3rem; }
+  .little_about_me_section_1 h2 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem; }
+
+.little_about_me_text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.little_about_me_image {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
