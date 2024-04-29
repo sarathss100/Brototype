@@ -1,0 +1,12 @@
+h1 {
+  color: red;
+}
+
+.color-toggle {
+  background-color: green;
+  color: white;
+}
+
+.huge {
+  font-size: 10rem;
+}
