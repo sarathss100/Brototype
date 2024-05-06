@@ -46,36 +46,32 @@
         </div>
     </nav><!-- End of Page Navbar -->
 
-    <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay">
-        </div>
-        <div class="header-content container">
-            <h1 class="header-title" style="padding-top: 200px;">
-                <span class="up">HI!</span>
-                <span class="down">I am Sarath S S</span>
-            </h1>
-            <p class="header-subtitle">Mern Stack Developer</p>
-        </div>
-    </header>
-    <!-- end of page header -->
-
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me?</h6>
-                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+    <!-- contact section -->
+    <section class="section" id="contact"></section>
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="https://api.web3forms.com/submit" id="form" class="contact-form col-md-10 col-lg-8 m-auto" method="post" onsubmit="reset()">
+                <div class="form-row">
+                    <input type="hidden" name="access_key" value="e2b394ee-c5bd-49f9-b1ec-f29d21dca470">
+                    <div class="form-group col-sm-6">
+                        <input type="text" id="name" size="100" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" id="email" class="form-control" placeholder="Enter Email" requried>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="25" class="form-control"
+                            placeholder="Write Something" required></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                    </div>
                 </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <button class="btn btn-lg my-font btn-light rounded"><a class="link" href="./contact.html">Hire Me</a></button>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
 
     <div class="container">
         <footer class="footer">
@@ -90,10 +86,12 @@
     </div> <!-- end of page footer -->
 
     <!-- core  -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
     <script src="assets/js/meyawo.js"></script>
 
 </body>
+
 </html>
